@@ -1,0 +1,86 @@
+.container {
+  padding: 0 45px;
+}
+
+.room-title {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.rooms-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.room-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.room-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-content {
+  padding: 15px;
+}
+
+.room-content h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.room-content p {
+  margin: 0 0 15px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.book-button {
+  background: #ff5e57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.book-button:hover {
+  background: #e04b45;
+}
+
+
+@media (max-width: 576px) {
+  .room-title {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .room-content h3 {
+    font-size: 18px;
+  }
+
+  .room-content p {
+    font-size: 13px;
+  }
+
+  .book-button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .rooms-container {
+    gap: 15px;
+  }
+}
