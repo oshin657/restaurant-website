@@ -4,7 +4,7 @@
   padding: 4rem 2rem;
 }
 
-/* Why Choose Us Section */
+
 .why-choose-us {
   margin-bottom: 5rem;
 }
@@ -51,7 +51,7 @@
   line-height: 1.6;
 }
 
-/* Customer Reviews Section */
+
 .reviews-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -107,7 +107,7 @@
   font-style: italic;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .features-container {
     padding: 3rem 1rem;

@@ -81,7 +81,7 @@
   background: #e04b45;
 }
 
-/* Responsive */
+
 @media (max-width: 576px) {
   .menu-section h2 {
     font-size: 24px;

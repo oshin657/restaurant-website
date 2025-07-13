@@ -67,7 +67,6 @@
   padding-top: 10px;
 }
 
-/* Mobile Friendly */
 @media (max-width: 576px) {
   .footer-container {
     flex-direction: column;

@@ -5,7 +5,7 @@ import { FaStar, FaUtensils, FaWifi, FaSwimmingPool, FaConciergeBell, FaParking 
 function Features() {
   return (
     <div className="features-container">
-      {/* Why Choose Us Section */}
+     
       <section className="why-choose-us">
         <h2>Why Choose Our Hotel</h2>
         <div className="features-grid">
@@ -42,7 +42,7 @@ function Features() {
         </div>
       </section>
 
-      {/* Customer Reviews Section */}
+      
       <section className="customer-reviews">
         <h2>What Our Guests Say</h2>
         <div className="reviews-grid">

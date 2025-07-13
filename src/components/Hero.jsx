@@ -9,7 +9,7 @@ function Hero() {
 
   return (
     <>
-      {/* Hero Section with fixed 600px height */}
+      
       <section className="hero">
         <div className="hero-content">
           <h1>Welcome to Paradise Resort</h1>
@@ -17,7 +17,7 @@ function Hero() {
         </div>
       </section>
 
-      {/* Booking Section */}
+     
       <section className="booking-section">
         <div className="booking-container">
           <h2>Book Your Stay</h2>
